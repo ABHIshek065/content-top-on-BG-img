@@ -25,7 +25,10 @@
 
 .content h1::first-letter{
     font-size: 40px;
-    color: aquamarine;
+    color: dodgerblue;
+}
+.card h1::first-line{
+    color: blueviolet;
 }
 
 .btn {
