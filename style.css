@@ -3,11 +3,12 @@
   margin-top: 60px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .hero {
   background-image: url(/bg1.jpg);
-  width: 700px;
+  width: 790px;
   height: 500px;
   background-size: cover;
   border-radius: 12px;
@@ -27,8 +28,8 @@
   outline: none;
   background-color: #000;
   color: #fff;
-  padding: 8px 28px;
-  border-radius: 16px;
+  padding: 8px 58px;
+  border-radius: 8px;
   cursor: pointer;
 }
 .sidebar {
@@ -41,12 +42,19 @@
   border: 1px solid lightgray;
   border-radius: 12px;
   padding: 8px 16px;
-  overflow: scroll;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .card img {
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   width: 100%;
   border-radius: 16px;
 }
