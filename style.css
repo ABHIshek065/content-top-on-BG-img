@@ -37,6 +37,11 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.btn:hover{
+    background-color: tomato;
+    color: #000;
+}
 .sidebar {
   width: 300px;
 }
