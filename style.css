@@ -23,6 +23,11 @@
   padding-top: 190px;
 }
 
+.content h1::first-letter{
+    font-size: 40px;
+    color: aquamarine;
+}
+
 .btn {
   font-size: 16px;
   outline: none;
